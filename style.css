@@ -143,6 +143,9 @@ font-weight:600;
    margin-top:20px; 
    margin-left:20px;
  }
+ .tech{
+  font-weight:bolder;
+ }
  .pjt{
   /* border:1px solid green; */
   padding-left: 30px;
@@ -218,4 +221,12 @@ font-weight:600;
  .link-fix{
   text-decoration:none;
   color:white;
+ }
+ .hack{
+  
+   
+    background: linear-gradient(to right, #f32170,
+          #ff6b08, #cf23cf, #eedd44);
+          -webkit-text-fill-color: transparent;
+            background-clip: text;
  }
