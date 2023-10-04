@@ -53,12 +53,15 @@ body{
     align-items:center;
  }
  .profile{
+  border:3px solid white;
     width:100px;
     height:100px;
     object-fit:cover;
+    object-position:center;
     position:absolute;
     top:-80px;
     left:30px;
+    border-radius:50px;
  }
  .btn{
     background-color:#FF886C; 
@@ -172,8 +175,9 @@ font-weight:600;
  flex-direction:column;
  gap:10px;
  padding:10px;
+ 
  }
- .pjt-wrap-2 .bd{
+ .bd{
    font-weight:bold;
  }
  .skl{
@@ -199,6 +203,7 @@ font-weight:600;
       /* border-bottom:4px solid #FF886C; */
       padding-bottom:3px;   
       font-weight: bold;
+      
  }
  .cs{
  padding-left: 30px;
