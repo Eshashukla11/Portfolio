@@ -5,14 +5,12 @@
     box-sizing:border-box;
 }
 body{
-    background-color:black;
+    background-color:black; 
     color:white;
    font-family: 'Outfit', sans-serif;
 }
-.main-div{
-    /* border: 1px solid red; */
-    min-width:100vh;
-}
+
+
 .navbar{
     /* border:1px solid yellow; */
     padding-inline:40px;
@@ -40,6 +38,15 @@ body{
     display:flex;
     flex-direction:column;
     gap:20px;
+ }
+ .banner{
+  width:100%;
+ }
+ .banner img{
+  width:100%;
+  background-position:center;
+  background-size:cover;
+
  }
  .content-wrapper{
     /* border:1px solid orange; */
@@ -234,4 +241,44 @@ font-weight:600;
           #ff6b08, #cf23cf, #eedd44);
           -webkit-text-fill-color: transparent;
             background-clip: text;
+ }
+ @media(max-width:390px){
+    .main-container{
+      max-width:400px;
+      margin:0;
+    }
+    .navbar{
+      padding-inline:20px;
+    }
+    
+    .content-wrapper{
+      max-width:350px;
+    }
+        .profile {
+          
+          width: 85px;
+          height: 85px;
+          top: -70px;
+          left: 15px;
+        }
+    .wrapper-1{
+      gap:40px;
+    }
+        .btn {
+          
+          padding: 2px 12px;
+          text-align: center;
+          border-radius: 25px;
+          /* font-size:1rem; */
+          font-weight: bold;
+    
+        }
+                .name-wrap {
+                  font-size: 1.1rem;
+                }
+                .abt,.exp,.pjt,.skl,.cs {
+                  font-size: 1.4rem;
+                 
+ }
+
  }
