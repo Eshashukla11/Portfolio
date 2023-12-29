@@ -58,7 +58,7 @@ body {
 }
 
 .content-wrapper {
-  /* border:1px solid orange; */
+  
   width: 520px;
   margin: 0 auto;
 }
@@ -262,7 +262,7 @@ body {
   margin-left: 60px;
   padding: 10px;
   font-size: 1.1rem;
-  /* font-weight: bold; */
+ 
 }
 
 .abt,
